@@ -31,7 +31,7 @@ WORKDIR /app
 
 # Клонируем два указанных репозитория
 RUN git clone https://github.com/Ground-Zerro/DomainMapper.git
-ADD https://github.com/bloer2013/python-docker/blob/main/send.py /app/send.py
+ADD https://raw.githubusercontent.com/bloer2013/python-docker/main/send.py /app/send.py
 
 # Устанавливаем рабочую директорию для выполнения команд
 WORKDIR /app
